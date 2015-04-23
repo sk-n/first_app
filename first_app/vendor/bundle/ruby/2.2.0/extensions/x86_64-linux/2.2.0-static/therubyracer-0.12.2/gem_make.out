@@ -1,0 +1,39 @@
+/home/studiokaren/.rbenv/versions/2.2.2/bin/ruby -r ./siteconf20150423-8809-8p6j8b.rb extconf.rb
+checking for main() in -lpthread... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling context.cc
+compiling stack.cc
+compiling backref.cc
+compiling template.cc
+compiling init.cc
+compiling locker.cc
+compiling function.cc
+compiling rr.cc
+compiling value.cc
+compiling message.cc
+compiling trycatch.cc
+compiling heap.cc
+compiling date.cc
+compiling string.cc
+compiling invocation.cc
+compiling signature.cc
+compiling exception.cc
+compiling gc.cc
+compiling v8.cc
+compiling handles.cc
+compiling constants.cc
+compiling script.cc
+compiling object.cc
+compiling array.cc
+compiling constraints.cc
+compiling external.cc
+compiling accessor.cc
+compiling primitive.cc
+linking shared-object v8/init.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 init.so ./.gem.20150423-8809-1pypjgj/v8
